@@ -1,0 +1,8 @@
+{
+  "name": "html5-css3-modern-coding",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:kasaharu/html5-css3-modern-coding.git",
+  "author": "Wataru.Kasahara <kasahara1019@gmail.com>",
+  "license": "MIT"
+}
