@@ -5,6 +5,9 @@
   "repository": "git@github.com:kasaharu/html5-css3-modern-coding.git",
   "author": "Wataru.Kasahara <kasahara1019@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "static standard-layout"
+  },
   "devDependencies": {
     "node-static": "^0.7.11"
   }
