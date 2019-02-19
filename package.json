@@ -9,6 +9,7 @@
     "start": "static standard-layout"
   },
   "devDependencies": {
-    "node-static": "^0.7.11"
+    "node-static": "^0.7.11",
+    "prettier": "1.16.4"
   }
 }
