@@ -6,7 +6,8 @@
   "author": "Wataru.Kasahara <kasahara1019@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "static standard-layout"
+    "start": "static standard-layout",
+    "prettier": "prettier --write './**/*.{js,html,css}'"
   },
   "devDependencies": {
     "node-static": "^0.7.11",
