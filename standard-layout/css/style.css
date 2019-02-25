@@ -21,6 +21,35 @@
   height: 100%;
 }
 
+.global-nav {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.global-nav .nav-item {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.global-nav .nav-item a {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 8px;
+  color: #666;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  transition: 0.15s;
+}
+
+.global-nav .nav-item.active a,
+.global-nav .nav-item a:hover {
+  background-color: #d03c56;
+  color: #fff;
+}
+
 .wrapper {
   width: 970px;
   margin: 30px auto 40px;
