@@ -84,11 +84,39 @@
 }
 
 .hot-topic .content {
+  position: relative;
   float: left;
   width: 50%;
   height: 100%;
   padding: 105px 25px 0;
   background-color: #2d3d54;
+  line-height: 1.6;
+}
+
+.hot-topic .title {
+  margin-bottom: 15px;
+  color: #fff;
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+.hot-topic .desc {
+  color: #ddc;
+}
+
+.hot-topic .date {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 140px;
+  padding: 4px;
+  background-color: #fff;
+  color: #2d3d54;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 1px;
+  line-height: 1;
 }
 
 .sidemenu {
