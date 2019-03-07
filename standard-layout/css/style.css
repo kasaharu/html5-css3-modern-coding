@@ -119,6 +119,70 @@
   line-height: 1;
 }
 
+.heading {
+  padding: 10px 12px;
+  background: url('../images/bg-slash.gif');
+  letter-spacing: 1px;
+  font-size: 1.6rem;
+}
+
+.scroll-list {
+  max-height: 220px;
+  overflow-y: auto;
+  margin-bottom: 30px;
+  list-style-type: none;
+}
+
+.scroll-list .scroll-item a {
+  display: block;
+  padding: 10px 15px;
+  color: #333;
+  font-size: 0;
+  transition: background-color 0.1s;
+}
+
+.scroll-list .scroll-item:nth-of-type(even) a {
+  background: url('../images/bg-slash.gif');
+}
+
+.scroll-list .scroll-item a:hover {
+  background-color: #fafaf8;
+}
+
+.scroll-list .date {
+  display: inline-block;
+  font-size: 1rem;
+  width: 19%;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.scroll-list .category {
+  display: inline-block;
+  font-size: 1rem;
+  width: 8%;
+  border-radius: 5px;
+  background-color: #d03c56;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 16px;
+}
+
+.scroll-list .category.news {
+  background-color: #2c3c56;
+}
+
+.scroll-list .title {
+  display: inline-block;
+  font-size: 1.2rem;
+  width: 73%;
+  padding-left: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .sidemenu {
   float: right;
   width: 275px;
