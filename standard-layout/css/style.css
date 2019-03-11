@@ -247,6 +247,52 @@
   width: 275px;
 }
 
+.ranking {
+  margin-bottom: 30px;
+  list-style-type: none;
+}
+
+.ranking .ranking-item {
+  margin-top: 15px;
+}
+
+.ranking .ranking-item a {
+  display: block;
+  font-size: 0;
+  transition: opacity 0.15s;
+}
+
+.ranking .ranking-item a:hover {
+  opacity: 0.8;
+}
+
+.ranking .image {
+  width: 55px;
+  height: 55px;
+}
+
+.ranking .text {
+  display: inline-block;
+  width: 182px;
+  color: #000;
+  vertical-align: top;
+  line-height: 1.5;
+}
+
+.ranking .order {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin: 0 10px;
+  border: 1px solid #ccc;
+  color: #aaa;
+  vertical-align: 20px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 16px;
+  transform: rotate(45deg);
+}
+
 .footer {
   width: 100%;
 }
